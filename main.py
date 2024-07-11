@@ -28,3 +28,4 @@ for layer in psd.descendants():
     renameLayer(layer)
 
 psd.save(outputName)
+print(f"PSD saved to \"{outputName}\". Translated layers: {c}")
